@@ -1,498 +1,498 @@
-[2024-05-16 15:13:47] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
-[2024-05-16 15:13:47] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, create_zip_archive, wrapup
-[2024-05-16 15:13:47] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
-[2024-05-16 15:13:48] [class-ss-archive-creation-job.php:136] Current task: setup
-[2024-05-16 15:13:48] [class-ss-archive-creation-job.php:153] Performing task: setup
-[2024-05-16 15:13:48] [class-ss-task.php:44] Status message: [setup] Setting up
-[2024-05-16 15:13:48] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872427\
-[2024-05-16 15:13:48] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/fixedincome/
-[2024-05-16 15:13:49] [class-ss-setup-task.php:137] File C:\xampp\htdocs\fixedincome\wp-content\plugins\simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js exists; adding to queue as: C:/xampp/htdocs/fixedincome/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
-[2024-05-16 15:13:49] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
-[2024-05-16 15:13:49] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
-[2024-05-16 15:13:49] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
-[2024-05-16 15:13:49] [class-ss-fetch-urls-task.php:69] Total pages: 2; Pages remaining: 2
-[2024-05-16 15:13:49] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/
-[2024-05-16 15:13:49] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 2
-[2024-05-16 15:13:49] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-05-16 15:13:49] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/664622ad04ce3-PrFVxE.tmp
-[2024-05-16 15:13:49] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/?simply_static_page=70
-[2024-05-16 15:13:49] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/?simply_static_page=70
-[2024-05-16 15:13:49] [class-ss-url-fetcher.php:103] Filesize: 85168 bytes
-[2024-05-16 15:13:49] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
-[2024-05-16 15:13:49] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
-[2024-05-16 15:13:49] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/664622ad04ce3-PrFVxE.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872427/index.html
-[2024-05-16 15:13:49] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2024-05-16 15:13:50] [class-ss-fetch-urls-task.php:158] Adding 21 URLs to the queue
-[2024-05-16 15:13:50] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2024-05-16 15:13:50] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: îk‰}ÍÜ≈®‚Inè("v¿Ål
-[2024-05-16 15:13:50] [class-ss-page.php:125] Checking Content Identical:946be47dea1d86c5a8e2496e8f28227610c0816c===. Value: TRUE
-[2024-05-16 15:13:50] [class-ss-fetch-urls-task.php:72] URL: C:/xampp/htdocs/fixedincome/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
-[2024-05-16 15:13:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 2
-[2024-05-16 15:13:50] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-05-16 15:13:50] [class-ss-url-fetcher.php:83] Not fetching URL because it is not a local URL
-[2024-05-16 15:13:50] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 2 pages/files
-[2024-05-16 15:13:50] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
-[2024-05-16 15:13:50] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
-[2024-05-16 15:13:50] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
-[2024-05-16 15:13:50] [class-ss-fetch-urls-task.php:69] Total pages: 23; Pages remaining: 21
-[2024-05-16 15:13:50] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome
-[2024-05-16 15:13:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 23
-[2024-05-16 15:13:50] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-05-16 15:13:50] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/664622aef278c-UgjEll.tmp
-[2024-05-16 15:13:50] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome?simply_static_page=72
-[2024-05-16 15:13:50] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome?simply_static_page=72
-[2024-05-16 15:13:51] [class-ss-url-fetcher.php:103] Filesize: 358 bytes
-[2024-05-16 15:13:51] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
-[2024-05-16 15:13:51] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
-[2024-05-16 15:13:51] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/fixedincome/
-[2024-05-16 15:13:51] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
-[2024-05-16 15:13:51] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/privacy-policy/
-[2024-05-16 15:13:51] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 23
-[2024-05-16 15:13:51] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-05-16 15:13:51] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/664622af06da9-ceNcil.tmp
-[2024-05-16 15:13:51] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/privacy-policy/?simply_static_page=73
-[2024-05-16 15:13:51] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/privacy-policy/?simply_static_page=73
-[2024-05-16 15:13:51] [class-ss-url-fetcher.php:103] Filesize: 61882 bytes
-[2024-05-16 15:13:51] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
-[2024-05-16 15:13:51] [class-ss-url-fetcher.php:233] New filename for static page: /privacy-policy/index.html
-[2024-05-16 15:13:51] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/664622af06da9-ceNcil.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872427/privacy-policy/index.html
-[2024-05-16 15:13:51] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2024-05-16 15:13:52] [class-ss-fetch-urls-task.php:158] Adding 18 URLs to the queue
-[2024-05-16 15:13:52] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2024-05-16 15:13:52] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: Î∫WQ	o0≈«NÉí©Æ=v„
-[2024-05-16 15:13:52] [class-ss-page.php:125] Checking Content Identical:ebba5751096f30c505c74e8392a90cae3d761fe3===. Value: TRUE
-[2024-05-16 15:13:52] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/sample-page/
-[2024-05-16 15:13:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 23
-[2024-05-16 15:13:52] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-05-16 15:13:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/664622b0d90fb-UOaDWr.tmp
-[2024-05-16 15:13:52] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/sample-page/?simply_static_page=74
-[2024-05-16 15:13:52] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/sample-page/?simply_static_page=74
-[2024-05-16 15:13:53] [class-ss-url-fetcher.php:103] Filesize: 60334 bytes
-[2024-05-16 15:13:53] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
-[2024-05-16 15:13:53] [class-ss-url-fetcher.php:233] New filename for static page: /sample-page/index.html
-[2024-05-16 15:13:53] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/664622b0d90fb-UOaDWr.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872427/sample-page/index.html
-[2024-05-16 15:13:53] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2024-05-16 15:13:54] [class-ss-fetch-urls-task.php:158] Adding 19 URLs to the queue
-[2024-05-16 15:13:54] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2024-05-16 15:13:54] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ])p\ı%…˙•“ˇ«´SiúÕ Ö
-[2024-05-16 15:13:54] [class-ss-page.php:125] Checking Content Identical:5d29705cf525c9faa5d2ffc7ab53699ccd1b0085===. Value: TRUE
-[2024-05-16 15:13:54] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/2024/05/15/hello-world/
-[2024-05-16 15:13:54] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 23
-[2024-05-16 15:13:54] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-05-16 15:13:54] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/664622b2c23f5-QAz8Ve.tmp
-[2024-05-16 15:13:54] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/2024/05/15/hello-world/?simply_static_page=75
-[2024-05-16 15:13:54] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/2024/05/15/hello-world/?simply_static_page=75
-[2024-05-16 15:13:55] [class-ss-url-fetcher.php:103] Filesize: 77601 bytes
-[2024-05-16 15:13:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
-[2024-05-16 15:13:55] [class-ss-url-fetcher.php:233] New filename for static page: /2024/05/15/hello-world/index.html
-[2024-05-16 15:13:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/664622b2c23f5-QAz8Ve.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872427/2024/05/15/hello-world/index.html
-[2024-05-16 15:13:55] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2024-05-16 15:13:56] [class-ss-fetch-urls-task.php:158] Adding 23 URLs to the queue
-[2024-05-16 15:13:56] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2024-05-16 15:13:56] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ⁄ûWGÎÇ&çﬁ√±Ú≈ÆXsÄcD
-[2024-05-16 15:13:56] [class-ss-page.php:125] Checking Content Identical:da9e5747eb82268ddec3b1f2c5ae587380634416===. Value: TRUE
-[2024-05-16 15:13:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/author/admin/
-[2024-05-16 15:13:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 23
-[2024-05-16 15:13:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-05-16 15:13:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/664622b497303-ZYxlUJ.tmp
-[2024-05-16 15:13:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/author/admin/?simply_static_page=76
-[2024-05-16 15:13:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/author/admin/?simply_static_page=76
-[2024-05-16 15:13:56] [class-ss-url-fetcher.php:103] Filesize: 64418 bytes
-[2024-05-16 15:13:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
-[2024-05-16 15:13:56] [class-ss-url-fetcher.php:233] New filename for static page: /author/admin/index.html
-[2024-05-16 15:13:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/664622b497303-ZYxlUJ.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872427/author/admin/index.html
-[2024-05-16 15:13:57] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2024-05-16 15:13:57] [class-ss-fetch-urls-task.php:158] Adding 19 URLs to the queue
-[2024-05-16 15:13:57] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2024-05-16 15:13:58] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ©lzj„˚ÿÕ7ãvÜ^Ê¬ú$5“≠
-[2024-05-16 15:13:58] [class-ss-page.php:125] Checking Content Identical:a96c7a6ae3fbd8cd378b76865ee6c29c2435d2ad===. Value: TRUE
-[2024-05-16 15:13:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/category/uncategorized/
-[2024-05-16 15:13:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 23
-[2024-05-16 15:13:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-05-16 15:13:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/664622b66bbb3-CnQi8o.tmp
-[2024-05-16 15:13:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/category/uncategorized/?simply_static_page=77
-[2024-05-16 15:13:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/category/uncategorized/?simply_static_page=77
-[2024-05-16 15:13:58] [class-ss-url-fetcher.php:103] Filesize: 57301 bytes
-[2024-05-16 15:13:58] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
-[2024-05-16 15:13:58] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
-[2024-05-16 15:13:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/664622b6d56aa-37GOF9.tmp
-[2024-05-16 15:13:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/category/uncategorized/
-[2024-05-16 15:13:59] [class-ss-url-fetcher.php:103] Filesize: 57301 bytes
-[2024-05-16 15:13:59] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
-[2024-05-16 15:13:59] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
-[2024-05-16 15:13:59] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
-[2024-05-16 15:13:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 23
-[2024-05-16 15:13:59] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-05-16 15:13:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/664622b752d30-sNYW3H.tmp
-[2024-05-16 15:13:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp?simply_static_page=78
-[2024-05-16 15:13:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp?simply_static_page=78
-[2024-05-16 15:13:59] [class-ss-url-fetcher.php:103] Filesize: 199724 bytes
-[2024-05-16 15:13:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
-[2024-05-16 15:13:59] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
-[2024-05-16 15:13:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/664622b752d30-sNYW3H.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872427/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
-[2024-05-16 15:13:59] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2024-05-16 15:13:59] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
-[2024-05-16 15:13:59] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2024-05-16 15:13:59] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: høñÍßŒ2£-âœ˘ﬂwr
-[2024-05-16 15:13:59] [class-ss-page.php:125] Checking Content Identical:6804bf960deaa7ce32a32d8908cff9df0b157772===. Value: TRUE
-[2024-05-16 15:13:59] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
-[2024-05-16 15:13:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 23
-[2024-05-16 15:13:59] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-05-16 15:13:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/664622b759d5c-D2GNrv.tmp
-[2024-05-16 15:13:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp?simply_static_page=79
-[2024-05-16 15:13:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp?simply_static_page=79
-[2024-05-16 15:13:59] [class-ss-url-fetcher.php:103] Filesize: 66482 bytes
-[2024-05-16 15:13:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
-[2024-05-16 15:13:59] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
-[2024-05-16 15:13:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/664622b759d5c-D2GNrv.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872427/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
-[2024-05-16 15:13:59] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2024-05-16 15:13:59] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
-[2024-05-16 15:13:59] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2024-05-16 15:13:59] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ],l”ÿ“ƒ(7bÄs‰Q%w‰
-[2024-05-16 15:13:59] [class-ss-page.php:125] Checking Content Identical:5d2c6cd3d8d2c412281237628073e451257716e4===. Value: TRUE
-[2024-05-16 15:13:59] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/wp-content/themes/twentytwentyfour/assets/images/windows.webp
-[2024-05-16 15:13:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 23
-[2024-05-16 15:13:59] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-05-16 15:13:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/664622b7605f1-Oku4ll.tmp
-[2024-05-16 15:13:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/wp-content/themes/twentytwentyfour/assets/images/windows.webp?simply_static_page=80
-[2024-05-16 15:13:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/wp-content/themes/twentytwentyfour/assets/images/windows.webp?simply_static_page=80
-[2024-05-16 15:13:59] [class-ss-url-fetcher.php:103] Filesize: 126244 bytes
-[2024-05-16 15:13:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
-[2024-05-16 15:13:59] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/windows.webp
-[2024-05-16 15:13:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/664622b7605f1-Oku4ll.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872427/wp-content/themes/twentytwentyfour/assets/images/windows.webp
-[2024-05-16 15:13:59] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2024-05-16 15:13:59] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
-[2024-05-16 15:13:59] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2024-05-16 15:13:59] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: £(O{^∆Ñ!√U˛*Âk0cöû
-[2024-05-16 15:13:59] [class-ss-page.php:125] Checking Content Identical:18a3284f7b5ec684211dc355fe2ae56b30639a9e===. Value: TRUE
-[2024-05-16 15:13:59] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/wp-includes/blocks/navigation/view.min.js
-[2024-05-16 15:13:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 23
-[2024-05-16 15:13:59] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-05-16 15:13:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/664622b766d11-fa1mN5.tmp
-[2024-05-16 15:13:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/wp-includes/blocks/navigation/view.min.js?simply_static_page=81
-[2024-05-16 15:13:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/wp-includes/blocks/navigation/view.min.js?simply_static_page=81
-[2024-05-16 15:13:59] [class-ss-url-fetcher.php:103] Filesize: 3300 bytes
-[2024-05-16 15:13:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2024-05-16 15:13:59] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/view.min.js
-[2024-05-16 15:13:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/664622b766d11-fa1mN5.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872427/wp-includes/blocks/navigation/view.min.js
-[2024-05-16 15:13:59] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2024-05-16 15:13:59] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
-[2024-05-16 15:13:59] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2024-05-16 15:13:59] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ≤{®”πéﬂ’#÷ËB)’/˝
-[2024-05-16 15:13:59] [class-ss-page.php:125] Checking Content Identical:b27ba805d3b9118edfd523f01fd6e84229d52ffd===. Value: TRUE
-[2024-05-16 15:13:59] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/feed/
-[2024-05-16 15:13:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 23
-[2024-05-16 15:13:59] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-05-16 15:13:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/664622b76ceb8-2a77Dw.tmp
-[2024-05-16 15:13:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/feed/?simply_static_page=82
-[2024-05-16 15:13:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/feed/?simply_static_page=82
-[2024-05-16 15:13:59] [class-ss-url-fetcher.php:103] Filesize: 1706 bytes
-[2024-05-16 15:13:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
-[2024-05-16 15:13:59] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.xml
-[2024-05-16 15:13:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/664622b76ceb8-2a77Dw.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872427/feed/index.xml
-[2024-05-16 15:13:59] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2024-05-16 15:13:59] [class-ss-fetch-urls-task.php:158] Adding 5 URLs to the queue
-[2024-05-16 15:13:59] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2024-05-16 15:13:59] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ä¸ê˜»ÿ§Ûu0\8Â6ãÔÆ
-[2024-05-16 15:13:59] [class-ss-page.php:125] Checking Content Identical:108afc0c90f7c87fd8a4f375305c38e5368befae===. Value: TRUE
-[2024-05-16 15:13:59] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/comments/feed/
-[2024-05-16 15:13:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 23
-[2024-05-16 15:13:59] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-05-16 15:13:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/664622b7b8fbb-Ic6qJ3.tmp
-[2024-05-16 15:13:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/comments/feed/?simply_static_page=83
-[2024-05-16 15:13:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/comments/feed/?simply_static_page=83
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:103] Filesize: 1677 bytes
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.xml
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/664622b7b8fbb-Ic6qJ3.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872427/comments/feed/index.xml
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:158] Adding 4 URLs to the queue
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ≠s(ûûe≈ìîFM≠¨Õj…¬˜¯H
-[2024-05-16 15:14:00] [class-ss-page.php:125] Checking Content Identical:ad73289e9e65c59394464dadaccd6ac9c2f7f848===. Value: TRUE
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/wp-includes/blocks/navigation/style.min.css
-[2024-05-16 15:14:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 23
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/664622b80e9fc-Z5LwBy.tmp
-[2024-05-16 15:14:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/wp-includes/blocks/navigation/style.min.css?simply_static_page=84
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/wp-includes/blocks/navigation/style.min.css?simply_static_page=84
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:103] Filesize: 16484 bytes
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/style.min.css
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/664622b80e9fc-Z5LwBy.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872427/wp-includes/blocks/navigation/style.min.css
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ß^ﬂTB¡ñ÷p‰6¬ˆÏ’ï‰h
-[2024-05-16 15:14:00] [class-ss-page.php:125] Checking Content Identical:a75edf5442c196d670e436c2f616ecd595e41d68===. Value: TRUE
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/wp-includes/blocks/image/style.min.css
-[2024-05-16 15:14:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 23
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/664622b81eb76-x3Rk2q.tmp
-[2024-05-16 15:14:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/wp-includes/blocks/image/style.min.css?simply_static_page=85
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/wp-includes/blocks/image/style.min.css?simply_static_page=85
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:103] Filesize: 7049 bytes
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/image/style.min.css
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/664622b81eb76-x3Rk2q.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872427/wp-includes/blocks/image/style.min.css
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: Z/∑zÔ÷œ¥¥i™LGº
-[2024-05-16 15:14:00] [class-ss-page.php:125] Checking Content Identical:105a2ff003b77aefd61ecfb419b4690caa4c47bc===. Value: TRUE
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/wp-json/
-[2024-05-16 15:14:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 23
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/fixedincome/wp-json/
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/xmlrpc.php
-[2024-05-16 15:14:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 23
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/fixedincome/xmlrpc.php
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/wp-includes/js/dist/interactivity.min.js
-[2024-05-16 15:14:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 23
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/664622b82c2f6-PcR6Bw.tmp
-[2024-05-16 15:14:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/wp-includes/js/dist/interactivity.min.js?simply_static_page=88
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/wp-includes/js/dist/interactivity.min.js?simply_static_page=88
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:103] Filesize: 35085 bytes
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/interactivity.min.js
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/664622b82c2f6-PcR6Bw.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872427/wp-includes/js/dist/interactivity.min.js
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: î“-HóüFVÙixø‘∂zÎÏ
-[2024-05-16 15:14:00] [class-ss-page.php:125] Checking Content Identical:94d22d48979f46560d1c7ff46978bfd4b67aebec===. Value: TRUE
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
-[2024-05-16 15:14:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 23
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/664622b837455-okhhvA.tmp
-[2024-05-16 15:14:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=89
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=89
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:103] Filesize: 326628 bytes
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/664622b837455-okhhvA.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872427/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: @Tmø’ƒg√%}è:JÿØôïÆ∂
-[2024-05-16 15:14:00] [class-ss-page.php:125] Checking Content Identical:40546dbfd5c467c3257d8f3a4ad8af0d9995aeb6===. Value: TRUE
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
-[2024-05-16 15:14:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 23
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/664622b841092-Rg4D4m.tmp
-[2024-05-16 15:14:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=90
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=90
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:103] Filesize: 146060 bytes
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/664622b841092-Rg4D4m.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872427/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ∏joÛ˚Gweﬂ„|§Èõê!n
-[2024-05-16 15:14:00] [class-ss-page.php:125] Checking Content Identical:b86a6f0bf3fb4777160165dfe37ca4e99b90216e===. Value: TRUE
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
-[2024-05-16 15:14:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 23
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/664622b84c8c5-AabXxu.tmp
-[2024-05-16 15:14:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=91
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=91
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:103] Filesize: 105184 bytes
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/664622b84c8c5-AabXxu.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872427/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ﬂˆå@'œB`Wò°ﬁF†a—`£
-[2024-05-16 15:14:00] [class-ss-page.php:125] Checking Content Identical:0fdff68c4027cf421d605798a1de46a061d160a3===. Value: TRUE
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
-[2024-05-16 15:14:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 23
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/664622b856c9b-ClByBx.tmp
-[2024-05-16 15:14:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=92
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=92
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:103] Filesize: 132564 bytes
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/664622b856c9b-ClByBx.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872427/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ‹V¯0è3Ö¥'ŒÖ¬ö¸G·|`
-[2024-05-16 15:14:00] [class-ss-page.php:125] Checking Content Identical:dc56f8308f3385b427ce85c20b9afc471be17c60===. Value: TRUE
-[2024-05-16 15:14:00] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 2 of 23 pages/files
-[2024-05-16 15:14:00] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
-[2024-05-16 15:14:00] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
-[2024-05-16 15:14:00] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:69] Total pages: 35; Pages remaining: 12
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/privacy-policy/feed/
-[2024-05-16 15:14:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 35
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/664622b860501-usMoBX.tmp
-[2024-05-16 15:14:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/privacy-policy/feed/?simply_static_page=93
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/privacy-policy/feed/?simply_static_page=93
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:103] Filesize: 755 bytes
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:233] New filename for static page: /privacy-policy/feed/index.xml
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/664622b860501-usMoBX.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872427/privacy-policy/feed/index.xml
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:158] Adding 2 URLs to the queue
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ºı=å·ÎÄÇ°£iÃ ÃìˆO¨
-[2024-05-16 15:14:00] [class-ss-page.php:125] Checking Content Identical:bcf53d8ce1eb178082a1a369cc20cc93f6104fac===. Value: TRUE
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/wp-json/wp/v2/pages/3
-[2024-05-16 15:14:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 35
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/fixedincome/wp-json/wp/v2/pages/3
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/wp-json/oembed/1.0/embed
-[2024-05-16 15:14:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 35
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/fixedincome/wp-json/oembed/1.0/embed
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/wp-admin/
-[2024-05-16 15:14:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 35
-[2024-05-16 15:14:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/664622b8b6bc2-JPGNiL.tmp
-[2024-05-16 15:14:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/wp-admin/?simply_static_page=96
-[2024-05-16 15:14:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/wp-admin/?simply_static_page=96
-[2024-05-16 15:14:01] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
-[2024-05-16 15:14:01] [class-ss-url-fetcher.php:119] http_status_code: 302 | content_type: text/html; charset=UTF-8
-[2024-05-16 15:14:01] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
-[2024-05-16 15:14:01] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/fixedincome/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Ffixedincome%2Fwp-admin%2F%3Fsimply_static_page%3D96&reauth=1
-[2024-05-16 15:14:01] [class-ss-fetch-urls-task.php:231] Redirect URL is on the same domain; adding the URL to the queue
-[2024-05-16 15:14:01] [class-ss-fetch-urls-task.php:243] Creating a redirect page
-[2024-05-16 15:14:01] [class-ss-url-fetcher.php:233] New filename for static page: /wp-admin/index.html
-[2024-05-16 15:14:01] [class-ss-page.php:125] Checking Content Identical:b43e3517fd0e4a080242ba263cc87f7945811e7e===. Value: TRUE
-[2024-05-16 15:14:01] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/sample-page/feed/
-[2024-05-16 15:14:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 35
-[2024-05-16 15:14:01] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-05-16 15:14:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/664622b91403d-ToP7UP.tmp
-[2024-05-16 15:14:01] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/sample-page/feed/?simply_static_page=97
-[2024-05-16 15:14:01] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/sample-page/feed/?simply_static_page=97
-[2024-05-16 15:14:01] [class-ss-url-fetcher.php:103] Filesize: 749 bytes
-[2024-05-16 15:14:01] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
-[2024-05-16 15:14:01] [class-ss-url-fetcher.php:233] New filename for static page: /sample-page/feed/index.xml
-[2024-05-16 15:14:01] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/664622b91403d-ToP7UP.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872427/sample-page/feed/index.xml
-[2024-05-16 15:14:01] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2024-05-16 15:14:01] [class-ss-fetch-urls-task.php:158] Adding 2 URLs to the queue
-[2024-05-16 15:14:01] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2024-05-16 15:14:01] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: Œû™Lê.Aﬁ*›Úˇg:k˝Í Ô
-[2024-05-16 15:14:01] [class-ss-page.php:125] Checking Content Identical:ce9eaa4c902e41de2addf2ff673a1a6bfdea00ef===. Value: TRUE
-[2024-05-16 15:14:01] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/wp-json/wp/v2/pages/2
-[2024-05-16 15:14:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 35
-[2024-05-16 15:14:01] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/fixedincome/wp-json/wp/v2/pages/2
-[2024-05-16 15:14:01] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
-[2024-05-16 15:14:01] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/wp-includes/js/comment-reply.min.js
-[2024-05-16 15:14:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 35
-[2024-05-16 15:14:01] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-05-16 15:14:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/664622b966b85-WqGp3L.tmp
-[2024-05-16 15:14:01] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/wp-includes/js/comment-reply.min.js?simply_static_page=99
-[2024-05-16 15:14:01] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/wp-includes/js/comment-reply.min.js?simply_static_page=99
-[2024-05-16 15:14:01] [class-ss-url-fetcher.php:103] Filesize: 2981 bytes
-[2024-05-16 15:14:01] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2024-05-16 15:14:01] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/comment-reply.min.js
-[2024-05-16 15:14:01] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/664622b966b85-WqGp3L.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872427/wp-includes/js/comment-reply.min.js
-[2024-05-16 15:14:01] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2024-05-16 15:14:01] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
-[2024-05-16 15:14:01] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2024-05-16 15:14:01] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: €6ßj™ cøæ¿,,ñt8≈¢E
-[2024-05-16 15:14:01] [class-ss-page.php:125] Checking Content Identical:db36a77f6aaa2063bfbec02c2c0e967438c5a245===. Value: TRUE
-[2024-05-16 15:14:01] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/2024/05/15/hello-world/feed/
-[2024-05-16 15:14:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 35
-[2024-05-16 15:14:01] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-05-16 15:14:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/664622b96b43d-Y9WUxb.tmp
-[2024-05-16 15:14:01] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/2024/05/15/hello-world/feed/?simply_static_page=100
-[2024-05-16 15:14:01] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/2024/05/15/hello-world/feed/?simply_static_page=100
-[2024-05-16 15:14:01] [class-ss-url-fetcher.php:103] Filesize: 1696 bytes
-[2024-05-16 15:14:01] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
-[2024-05-16 15:14:01] [class-ss-url-fetcher.php:233] New filename for static page: /2024/05/15/hello-world/feed/index.xml
-[2024-05-16 15:14:01] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/664622b96b43d-Y9WUxb.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872427/2024/05/15/hello-world/feed/index.xml
-[2024-05-16 15:14:01] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2024-05-16 15:14:01] [class-ss-fetch-urls-task.php:158] Adding 3 URLs to the queue
-[2024-05-16 15:14:01] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2024-05-16 15:14:01] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: êk}Ü„[â(;æè‹!üQŸ"“|
-[2024-05-16 15:14:01] [class-ss-page.php:125] Checking Content Identical:90186b7d86e35b89283bbe8fdc219f51d922d27c===. Value: TRUE
-[2024-05-16 15:14:01] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/wp-includes/css/dist/block-library/common.min.css
-[2024-05-16 15:14:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 35
-[2024-05-16 15:14:01] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-05-16 15:14:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/664622b9bbd9d-Xf1hwd.tmp
-[2024-05-16 15:14:01] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/wp-includes/css/dist/block-library/common.min.css?simply_static_page=101
-[2024-05-16 15:14:01] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/wp-includes/css/dist/block-library/common.min.css?simply_static_page=101
-[2024-05-16 15:14:01] [class-ss-url-fetcher.php:103] Filesize: 3503 bytes
-[2024-05-16 15:14:01] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
-[2024-05-16 15:14:01] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/common.min.css
-[2024-05-16 15:14:01] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/664622b9bbd9d-Xf1hwd.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872427/wp-includes/css/dist/block-library/common.min.css
-[2024-05-16 15:14:01] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2024-05-16 15:14:01] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
-[2024-05-16 15:14:01] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2024-05-16 15:14:01] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ‚&7µ÷ÆzAä‚–»£b∑˙
-[2024-05-16 15:14:01] [class-ss-page.php:125] Checking Content Identical:e22637b50dd6ae1c1f7a418ae2d0c803a362b7fa===. Value: TRUE
-[2024-05-16 15:14:01] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/wp-json/wp/v2/posts/1
-[2024-05-16 15:14:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 35
-[2024-05-16 15:14:01] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/fixedincome/wp-json/wp/v2/posts/1
-[2024-05-16 15:14:01] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
-[2024-05-16 15:14:01] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/author/admin/feed/
-[2024-05-16 15:14:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 35
-[2024-05-16 15:14:01] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-05-16 15:14:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/664622b9c345a-1OE5pC.tmp
-[2024-05-16 15:14:01] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/author/admin/feed/?simply_static_page=103
-[2024-05-16 15:14:01] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/author/admin/feed/?simply_static_page=103
-[2024-05-16 15:14:02] [class-ss-url-fetcher.php:103] Filesize: 1734 bytes
-[2024-05-16 15:14:02] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
-[2024-05-16 15:14:02] [class-ss-url-fetcher.php:233] New filename for static page: /author/admin/feed/index.xml
-[2024-05-16 15:14:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/664622b9c345a-1OE5pC.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872427/author/admin/feed/index.xml
-[2024-05-16 15:14:02] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
-[2024-05-16 15:14:02] [class-ss-fetch-urls-task.php:158] Adding 5 URLs to the queue
-[2024-05-16 15:14:02] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
-[2024-05-16 15:14:02] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: nÇ/≈Çß˘«iÇ+S'I€j
-[2024-05-16 15:14:02] [class-ss-page.php:125] Checking Content Identical:016e822fc5820ea71ff9c769822b532749db026a===. Value: TRUE
-[2024-05-16 15:14:02] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/wp-json/wp/v2/users/1
-[2024-05-16 15:14:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 35
-[2024-05-16 15:14:02] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/fixedincome/wp-json/wp/v2/users/1
-[2024-05-16 15:14:02] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
-[2024-05-16 15:14:02] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 23 of 35 pages/files
-[2024-05-16 15:14:02] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
-[2024-05-16 15:14:02] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
-[2024-05-16 15:14:02] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
-[2024-05-16 15:14:02] [class-ss-fetch-urls-task.php:69] Total pages: 36; Pages remaining: 1
-[2024-05-16 15:14:02] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Ffixedincome%2Fwp-admin%2F%3Fsimply_static_page%3D96&reauth=1
-[2024-05-16 15:14:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 36
-[2024-05-16 15:14:02] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/fixedincome/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Ffixedincome%2Fwp-admin%2F%3Fsimply_static_page%3D96&reauth=1
-[2024-05-16 15:14:02] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
-[2024-05-16 15:14:02] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 35 of 36 pages/files
-[2024-05-16 15:14:02] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
-[2024-05-16 15:14:02] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
-[2024-05-16 15:14:02] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
-[2024-05-16 15:14:02] [class-ss-fetch-urls-task.php:69] Total pages: 36; Pages remaining: 0
-[2024-05-16 15:14:02] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 36 of 36 pages/files
-[2024-05-16 15:14:02] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
-[2024-05-16 15:14:02] [class-ss-archive-creation-job.php:136] Current task: generate_404
-[2024-05-16 15:14:02] [class-ss-archive-creation-job.php:153] Performing task: generate_404
-[2024-05-16 15:14:02] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
-[2024-05-16 15:14:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/664622ba2c5fd-b6xMIH.tmp
-[2024-05-16 15:14:02] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/1715872443?simply_static_page=0
-[2024-05-16 15:14:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/1715872443?simply_static_page=0
-[2024-05-16 15:14:02] [class-ss-url-fetcher.php:103] Filesize: 57301 bytes
-[2024-05-16 15:14:02] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
-[2024-05-16 15:14:02] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
-[2024-05-16 15:14:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/664622ba2c5fd-b6xMIH.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872427\404/index.html
-[2024-05-16 15:14:02] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
-[2024-05-16 15:14:03] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
-[2024-05-16 15:14:04] [class-ss-page.php:125] Checking Content Identical:e62d9d465559303d7bcc23e5a437bbff76a14fa7===. Value: TRUE
-[2024-05-16 15:14:04] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
-[2024-05-16 15:14:04] [class-ss-archive-creation-job.php:175] We've found our next task: create_zip_archive
-[2024-05-16 15:14:04] [class-ss-archive-creation-job.php:136] Current task: create_zip_archive
-[2024-05-16 15:14:04] [class-ss-archive-creation-job.php:153] Performing task: create_zip_archive
-[2024-05-16 15:14:04] [class-ss-create-zip-archive.php:71] Fetching list of files to include in zip
-[2024-05-16 15:14:04] [class-ss-create-zip-archive.php:80] Creating zip archive
-[2024-05-16 15:14:04] [class-ss-task.php:44] Status message: [create_zip_archive] ZIP archive created:  <a href="http://localhost/fixedincome/wp-content/uploads/simply-static/temp-files/simply-static-1-1715872427.zip">Click here to download</a>
-[2024-05-16 15:14:04] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
-[2024-05-16 15:14:04] [class-ss-archive-creation-job.php:136] Current task: wrapup
-[2024-05-16 15:14:04] [class-ss-archive-creation-job.php:153] Performing task: wrapup
-[2024-05-16 15:14:04] [class-ss-wrapup-task.php:22] Deleting temporary files
-[2024-05-16 15:14:04] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
-[2024-05-16 15:14:04] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
-[2024-05-16 15:14:04] [class-ss-archive-creation-job.php:197] Completing the job
-[2024-05-16 15:14:04] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:00:17
+[2024-05-16 15:21:13] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-05-16 15:21:13] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, create_zip_archive, wrapup
+[2024-05-16 15:21:13] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-05-16 15:21:14] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-05-16 15:21:14] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-05-16 15:21:14] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-05-16 15:21:14] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872873\
+[2024-05-16 15:21:14] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/fixedincome/
+[2024-05-16 15:21:14] [class-ss-setup-task.php:137] File C:\xampp\htdocs\fixedincome\wp-content\plugins\simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js exists; adding to queue as: C:/xampp/htdocs/fixedincome/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-05-16 15:21:14] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-05-16 15:21:14] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-05-16 15:21:14] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-05-16 15:21:14] [class-ss-fetch-urls-task.php:69] Total pages: 2; Pages remaining: 2
+[2024-05-16 15:21:14] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/
+[2024-05-16 15:21:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 2
+[2024-05-16 15:21:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-16 15:21:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/6646246aaf23e-86MuUC.tmp
+[2024-05-16 15:21:14] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/?simply_static_page=106
+[2024-05-16 15:21:14] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/?simply_static_page=106
+[2024-05-16 15:21:15] [class-ss-url-fetcher.php:103] Filesize: 85168 bytes
+[2024-05-16 15:21:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-05-16 15:21:15] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-05-16 15:21:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/6646246aaf23e-86MuUC.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872873/index.html
+[2024-05-16 15:21:15] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-16 15:21:16] [class-ss-fetch-urls-task.php:158] Adding 21 URLs to the queue
+[2024-05-16 15:21:16] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-16 15:21:16] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: îk‰}ÍÜ≈®‚Inè("v¿Ål
+[2024-05-16 15:21:16] [class-ss-page.php:125] Checking Content Identical:946be47dea1d86c5a8e2496e8f28227610c0816c===. Value: TRUE
+[2024-05-16 15:21:16] [class-ss-fetch-urls-task.php:72] URL: C:/xampp/htdocs/fixedincome/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-05-16 15:21:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 2
+[2024-05-16 15:21:16] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-16 15:21:16] [class-ss-url-fetcher.php:83] Not fetching URL because it is not a local URL
+[2024-05-16 15:21:16] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 2 pages/files
+[2024-05-16 15:21:16] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-05-16 15:21:16] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-05-16 15:21:16] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-05-16 15:21:16] [class-ss-fetch-urls-task.php:69] Total pages: 23; Pages remaining: 21
+[2024-05-16 15:21:16] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome
+[2024-05-16 15:21:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 23
+[2024-05-16 15:21:16] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-16 15:21:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/6646246cafae8-Sl5vrq.tmp
+[2024-05-16 15:21:16] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome?simply_static_page=108
+[2024-05-16 15:21:16] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome?simply_static_page=108
+[2024-05-16 15:21:16] [class-ss-url-fetcher.php:103] Filesize: 359 bytes
+[2024-05-16 15:21:16] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2024-05-16 15:21:16] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-05-16 15:21:16] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/fixedincome/
+[2024-05-16 15:21:16] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-05-16 15:21:16] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/privacy-policy/
+[2024-05-16 15:21:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 23
+[2024-05-16 15:21:16] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-16 15:21:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/6646246cb4b42-bggTHK.tmp
+[2024-05-16 15:21:16] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/privacy-policy/?simply_static_page=109
+[2024-05-16 15:21:16] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/privacy-policy/?simply_static_page=109
+[2024-05-16 15:21:17] [class-ss-url-fetcher.php:103] Filesize: 61882 bytes
+[2024-05-16 15:21:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-05-16 15:21:17] [class-ss-url-fetcher.php:233] New filename for static page: /privacy-policy/index.html
+[2024-05-16 15:21:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/6646246cb4b42-bggTHK.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872873/privacy-policy/index.html
+[2024-05-16 15:21:17] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-16 15:21:18] [class-ss-fetch-urls-task.php:158] Adding 18 URLs to the queue
+[2024-05-16 15:21:18] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-16 15:21:18] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: Î∫WQ	o0≈«NÉí©Æ=v„
+[2024-05-16 15:21:18] [class-ss-page.php:125] Checking Content Identical:ebba5751096f30c505c74e8392a90cae3d761fe3===. Value: TRUE
+[2024-05-16 15:21:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/sample-page/
+[2024-05-16 15:21:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 23
+[2024-05-16 15:21:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-16 15:21:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/6646246ea62b5-uxXTgt.tmp
+[2024-05-16 15:21:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/sample-page/?simply_static_page=110
+[2024-05-16 15:21:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/sample-page/?simply_static_page=110
+[2024-05-16 15:21:19] [class-ss-url-fetcher.php:103] Filesize: 60334 bytes
+[2024-05-16 15:21:19] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-05-16 15:21:19] [class-ss-url-fetcher.php:233] New filename for static page: /sample-page/index.html
+[2024-05-16 15:21:19] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/6646246ea62b5-uxXTgt.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872873/sample-page/index.html
+[2024-05-16 15:21:19] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-16 15:21:20] [class-ss-fetch-urls-task.php:158] Adding 19 URLs to the queue
+[2024-05-16 15:21:20] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-16 15:21:20] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ])p\ı%…˙•“ˇ«´SiúÕ Ö
+[2024-05-16 15:21:20] [class-ss-page.php:125] Checking Content Identical:5d29705cf525c9faa5d2ffc7ab53699ccd1b0085===. Value: TRUE
+[2024-05-16 15:21:20] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/2024/05/15/hello-world/
+[2024-05-16 15:21:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 23
+[2024-05-16 15:21:20] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-16 15:21:20] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/664624707f693-TNsyQZ.tmp
+[2024-05-16 15:21:20] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/2024/05/15/hello-world/?simply_static_page=111
+[2024-05-16 15:21:20] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/2024/05/15/hello-world/?simply_static_page=111
+[2024-05-16 15:21:20] [class-ss-url-fetcher.php:103] Filesize: 77602 bytes
+[2024-05-16 15:21:20] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-05-16 15:21:20] [class-ss-url-fetcher.php:233] New filename for static page: /2024/05/15/hello-world/index.html
+[2024-05-16 15:21:20] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/664624707f693-TNsyQZ.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872873/2024/05/15/hello-world/index.html
+[2024-05-16 15:21:20] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-16 15:21:22] [class-ss-fetch-urls-task.php:158] Adding 23 URLs to the queue
+[2024-05-16 15:21:22] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-16 15:21:22] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ⁄ûWGÎÇ&çﬁ√±Ú≈ÆXsÄcD
+[2024-05-16 15:21:22] [class-ss-page.php:125] Checking Content Identical:da9e5747eb82268ddec3b1f2c5ae587380634416===. Value: TRUE
+[2024-05-16 15:21:22] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/author/admin/
+[2024-05-16 15:21:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 23
+[2024-05-16 15:21:22] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-16 15:21:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/664624727c45b-danEdh.tmp
+[2024-05-16 15:21:22] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/author/admin/?simply_static_page=112
+[2024-05-16 15:21:22] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/author/admin/?simply_static_page=112
+[2024-05-16 15:21:22] [class-ss-url-fetcher.php:103] Filesize: 64418 bytes
+[2024-05-16 15:21:22] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-05-16 15:21:22] [class-ss-url-fetcher.php:233] New filename for static page: /author/admin/index.html
+[2024-05-16 15:21:22] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/664624727c45b-danEdh.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872873/author/admin/index.html
+[2024-05-16 15:21:22] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-16 15:21:23] [class-ss-fetch-urls-task.php:158] Adding 19 URLs to the queue
+[2024-05-16 15:21:23] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-16 15:21:24] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ©lzj„˚ÿÕ7ãvÜ^Ê¬ú$5“≠
+[2024-05-16 15:21:24] [class-ss-page.php:125] Checking Content Identical:a96c7a6ae3fbd8cd378b76865ee6c29c2435d2ad===. Value: TRUE
+[2024-05-16 15:21:24] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/category/uncategorized/
+[2024-05-16 15:21:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 23
+[2024-05-16 15:21:24] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-16 15:21:24] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/6646247452340-p7Bqzx.tmp
+[2024-05-16 15:21:24] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/category/uncategorized/?simply_static_page=113
+[2024-05-16 15:21:24] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/category/uncategorized/?simply_static_page=113
+[2024-05-16 15:21:24] [class-ss-url-fetcher.php:103] Filesize: 57301 bytes
+[2024-05-16 15:21:24] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-05-16 15:21:24] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-05-16 15:21:24] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/66462474bbf1c-zToYil.tmp
+[2024-05-16 15:21:24] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/category/uncategorized/
+[2024-05-16 15:21:25] [class-ss-url-fetcher.php:103] Filesize: 57301 bytes
+[2024-05-16 15:21:25] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-05-16 15:21:25] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-05-16 15:21:25] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-05-16 15:21:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 23
+[2024-05-16 15:21:25] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-16 15:21:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/664624753aa6c-mojZ7l.tmp
+[2024-05-16 15:21:25] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp?simply_static_page=114
+[2024-05-16 15:21:25] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp?simply_static_page=114
+[2024-05-16 15:21:25] [class-ss-url-fetcher.php:103] Filesize: 199724 bytes
+[2024-05-16 15:21:25] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-05-16 15:21:25] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-05-16 15:21:25] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/664624753aa6c-mojZ7l.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872873/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-05-16 15:21:25] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-16 15:21:25] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-05-16 15:21:25] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-16 15:21:25] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: høñÍßŒ2£-âœ˘ﬂwr
+[2024-05-16 15:21:25] [class-ss-page.php:125] Checking Content Identical:6804bf960deaa7ce32a32d8908cff9df0b157772===. Value: TRUE
+[2024-05-16 15:21:25] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
+[2024-05-16 15:21:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 23
+[2024-05-16 15:21:25] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-16 15:21:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/66462475462d4-8v25Gp.tmp
+[2024-05-16 15:21:25] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp?simply_static_page=115
+[2024-05-16 15:21:25] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp?simply_static_page=115
+[2024-05-16 15:21:25] [class-ss-url-fetcher.php:103] Filesize: 66482 bytes
+[2024-05-16 15:21:25] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-05-16 15:21:25] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
+[2024-05-16 15:21:25] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/66462475462d4-8v25Gp.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872873/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
+[2024-05-16 15:21:25] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-16 15:21:25] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-05-16 15:21:25] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-16 15:21:25] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ],l”ÿ“ƒ(7bÄs‰Q%w‰
+[2024-05-16 15:21:25] [class-ss-page.php:125] Checking Content Identical:5d2c6cd3d8d2c412281237628073e451257716e4===. Value: TRUE
+[2024-05-16 15:21:25] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/wp-content/themes/twentytwentyfour/assets/images/windows.webp
+[2024-05-16 15:21:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 23
+[2024-05-16 15:21:25] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-16 15:21:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/664624755110a-WUgUcZ.tmp
+[2024-05-16 15:21:25] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/wp-content/themes/twentytwentyfour/assets/images/windows.webp?simply_static_page=116
+[2024-05-16 15:21:25] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/wp-content/themes/twentytwentyfour/assets/images/windows.webp?simply_static_page=116
+[2024-05-16 15:21:25] [class-ss-url-fetcher.php:103] Filesize: 126244 bytes
+[2024-05-16 15:21:25] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-05-16 15:21:25] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/windows.webp
+[2024-05-16 15:21:25] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/664624755110a-WUgUcZ.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872873/wp-content/themes/twentytwentyfour/assets/images/windows.webp
+[2024-05-16 15:21:25] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-16 15:21:25] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-05-16 15:21:25] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-16 15:21:25] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: £(O{^∆Ñ!√U˛*Âk0cöû
+[2024-05-16 15:21:25] [class-ss-page.php:125] Checking Content Identical:18a3284f7b5ec684211dc355fe2ae56b30639a9e===. Value: TRUE
+[2024-05-16 15:21:25] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/wp-includes/blocks/navigation/view.min.js
+[2024-05-16 15:21:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 23
+[2024-05-16 15:21:25] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-16 15:21:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/664624755cbed-sUOksf.tmp
+[2024-05-16 15:21:25] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/wp-includes/blocks/navigation/view.min.js?simply_static_page=117
+[2024-05-16 15:21:25] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/wp-includes/blocks/navigation/view.min.js?simply_static_page=117
+[2024-05-16 15:21:25] [class-ss-url-fetcher.php:103] Filesize: 3300 bytes
+[2024-05-16 15:21:25] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-05-16 15:21:25] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/view.min.js
+[2024-05-16 15:21:25] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/664624755cbed-sUOksf.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872873/wp-includes/blocks/navigation/view.min.js
+[2024-05-16 15:21:25] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-16 15:21:25] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-05-16 15:21:25] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-16 15:21:25] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ≤{®”πéﬂ’#÷ËB)’/˝
+[2024-05-16 15:21:25] [class-ss-page.php:125] Checking Content Identical:b27ba805d3b9118edfd523f01fd6e84229d52ffd===. Value: TRUE
+[2024-05-16 15:21:25] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/feed/
+[2024-05-16 15:21:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 23
+[2024-05-16 15:21:25] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-16 15:21:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/664624756827f-JKq6ji.tmp
+[2024-05-16 15:21:25] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/feed/?simply_static_page=118
+[2024-05-16 15:21:25] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/feed/?simply_static_page=118
+[2024-05-16 15:21:25] [class-ss-url-fetcher.php:103] Filesize: 1707 bytes
+[2024-05-16 15:21:25] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-05-16 15:21:25] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.xml
+[2024-05-16 15:21:25] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/664624756827f-JKq6ji.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872873/feed/index.xml
+[2024-05-16 15:21:25] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-16 15:21:25] [class-ss-fetch-urls-task.php:158] Adding 5 URLs to the queue
+[2024-05-16 15:21:25] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-16 15:21:25] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ä¸ê˜»ÿ§Ûu0\8Â6ãÔÆ
+[2024-05-16 15:21:25] [class-ss-page.php:125] Checking Content Identical:108afc0c90f7c87fd8a4f375305c38e5368befae===. Value: TRUE
+[2024-05-16 15:21:25] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/comments/feed/
+[2024-05-16 15:21:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 23
+[2024-05-16 15:21:25] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-16 15:21:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/66462475c111d-hkqlCL.tmp
+[2024-05-16 15:21:25] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/comments/feed/?simply_static_page=119
+[2024-05-16 15:21:25] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/comments/feed/?simply_static_page=119
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:103] Filesize: 1678 bytes
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.xml
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/66462475c111d-hkqlCL.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872873/comments/feed/index.xml
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:158] Adding 4 URLs to the queue
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ≠s(ûûe≈ìîFM≠¨Õj…¬˜¯H
+[2024-05-16 15:21:26] [class-ss-page.php:125] Checking Content Identical:ad73289e9e65c59394464dadaccd6ac9c2f7f848===. Value: TRUE
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/wp-includes/blocks/navigation/style.min.css
+[2024-05-16 15:21:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 23
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/6646247625205-QBXQQS.tmp
+[2024-05-16 15:21:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/wp-includes/blocks/navigation/style.min.css?simply_static_page=120
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/wp-includes/blocks/navigation/style.min.css?simply_static_page=120
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:103] Filesize: 16484 bytes
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/style.min.css
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/6646247625205-QBXQQS.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872873/wp-includes/blocks/navigation/style.min.css
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ß^ﬂTB¡ñ÷p‰6¬ˆÏ’ï‰h
+[2024-05-16 15:21:26] [class-ss-page.php:125] Checking Content Identical:a75edf5442c196d670e436c2f616ecd595e41d68===. Value: TRUE
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/wp-includes/blocks/image/style.min.css
+[2024-05-16 15:21:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 23
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/664624762e70c-XyHBit.tmp
+[2024-05-16 15:21:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/wp-includes/blocks/image/style.min.css?simply_static_page=121
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/wp-includes/blocks/image/style.min.css?simply_static_page=121
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:103] Filesize: 7049 bytes
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/image/style.min.css
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/664624762e70c-XyHBit.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872873/wp-includes/blocks/image/style.min.css
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: Z/∑zÔ÷œ¥¥i™LGº
+[2024-05-16 15:21:26] [class-ss-page.php:125] Checking Content Identical:105a2ff003b77aefd61ecfb419b4690caa4c47bc===. Value: TRUE
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/wp-json/
+[2024-05-16 15:21:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 23
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/fixedincome/wp-json/
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/xmlrpc.php
+[2024-05-16 15:21:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 23
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/fixedincome/xmlrpc.php
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/wp-includes/js/dist/interactivity.min.js
+[2024-05-16 15:21:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 23
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/664624763afab-Jlyqf9.tmp
+[2024-05-16 15:21:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/wp-includes/js/dist/interactivity.min.js?simply_static_page=124
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/wp-includes/js/dist/interactivity.min.js?simply_static_page=124
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:103] Filesize: 35085 bytes
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/interactivity.min.js
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/664624763afab-Jlyqf9.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872873/wp-includes/js/dist/interactivity.min.js
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: î“-HóüFVÙixø‘∂zÎÏ
+[2024-05-16 15:21:26] [class-ss-page.php:125] Checking Content Identical:94d22d48979f46560d1c7ff46978bfd4b67aebec===. Value: TRUE
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-05-16 15:21:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 23
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/664624764628e-vpyA15.tmp
+[2024-05-16 15:21:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=125
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=125
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:103] Filesize: 326628 bytes
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/664624764628e-vpyA15.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872873/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: @Tmø’ƒg√%}è:JÿØôïÆ∂
+[2024-05-16 15:21:26] [class-ss-page.php:125] Checking Content Identical:40546dbfd5c467c3257d8f3a4ad8af0d9995aeb6===. Value: TRUE
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-05-16 15:21:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 23
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/66462476505f5-gtLt4N.tmp
+[2024-05-16 15:21:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=126
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=126
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:103] Filesize: 146060 bytes
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/66462476505f5-gtLt4N.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872873/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ∏joÛ˚Gweﬂ„|§Èõê!n
+[2024-05-16 15:21:26] [class-ss-page.php:125] Checking Content Identical:b86a6f0bf3fb4777160165dfe37ca4e99b90216e===. Value: TRUE
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-05-16 15:21:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 23
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/664624765bdf9-SBKoIG.tmp
+[2024-05-16 15:21:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=127
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=127
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:103] Filesize: 105184 bytes
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/664624765bdf9-SBKoIG.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872873/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ﬂˆå@'œB`Wò°ﬁF†a—`£
+[2024-05-16 15:21:26] [class-ss-page.php:125] Checking Content Identical:0fdff68c4027cf421d605798a1de46a061d160a3===. Value: TRUE
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-05-16 15:21:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 23
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/6646247661840-BzNz3B.tmp
+[2024-05-16 15:21:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=128
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=128
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:103] Filesize: 132564 bytes
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/6646247661840-BzNz3B.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872873/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ‹V¯0è3Ö¥'ŒÖ¬ö¸G·|`
+[2024-05-16 15:21:26] [class-ss-page.php:125] Checking Content Identical:dc56f8308f3385b427ce85c20b9afc471be17c60===. Value: TRUE
+[2024-05-16 15:21:26] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 2 of 23 pages/files
+[2024-05-16 15:21:26] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-05-16 15:21:26] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-05-16 15:21:26] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:69] Total pages: 35; Pages remaining: 12
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/privacy-policy/feed/
+[2024-05-16 15:21:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 35
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/6646247668cd7-mHhznZ.tmp
+[2024-05-16 15:21:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/privacy-policy/feed/?simply_static_page=129
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/privacy-policy/feed/?simply_static_page=129
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:103] Filesize: 756 bytes
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:233] New filename for static page: /privacy-policy/feed/index.xml
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/6646247668cd7-mHhznZ.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872873/privacy-policy/feed/index.xml
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:158] Adding 2 URLs to the queue
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ºı=å·ÎÄÇ°£iÃ ÃìˆO¨
+[2024-05-16 15:21:26] [class-ss-page.php:125] Checking Content Identical:bcf53d8ce1eb178082a1a369cc20cc93f6104fac===. Value: TRUE
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/wp-json/wp/v2/pages/3
+[2024-05-16 15:21:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 35
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/fixedincome/wp-json/wp/v2/pages/3
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/wp-json/oembed/1.0/embed
+[2024-05-16 15:21:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 35
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/fixedincome/wp-json/oembed/1.0/embed
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/wp-admin/
+[2024-05-16 15:21:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 35
+[2024-05-16 15:21:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/66462476bd19f-i2nMZ1.tmp
+[2024-05-16 15:21:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/wp-admin/?simply_static_page=132
+[2024-05-16 15:21:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/wp-admin/?simply_static_page=132
+[2024-05-16 15:21:27] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-05-16 15:21:27] [class-ss-url-fetcher.php:119] http_status_code: 302 | content_type: text/html; charset=UTF-8
+[2024-05-16 15:21:27] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-05-16 15:21:27] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/fixedincome/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Ffixedincome%2Fwp-admin%2F%3Fsimply_static_page%3D132&reauth=1
+[2024-05-16 15:21:27] [class-ss-fetch-urls-task.php:231] Redirect URL is on the same domain; adding the URL to the queue
+[2024-05-16 15:21:27] [class-ss-fetch-urls-task.php:243] Creating a redirect page
+[2024-05-16 15:21:27] [class-ss-url-fetcher.php:233] New filename for static page: /wp-admin/index.html
+[2024-05-16 15:21:27] [class-ss-page.php:125] Checking Content Identical:bb87088891b4bff823d7c53af5f5b1177f224470===. Value: TRUE
+[2024-05-16 15:21:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/sample-page/feed/
+[2024-05-16 15:21:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 35
+[2024-05-16 15:21:27] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-16 15:21:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/664624771b721-sWJzUJ.tmp
+[2024-05-16 15:21:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/sample-page/feed/?simply_static_page=133
+[2024-05-16 15:21:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/sample-page/feed/?simply_static_page=133
+[2024-05-16 15:21:27] [class-ss-url-fetcher.php:103] Filesize: 750 bytes
+[2024-05-16 15:21:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-05-16 15:21:27] [class-ss-url-fetcher.php:233] New filename for static page: /sample-page/feed/index.xml
+[2024-05-16 15:21:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/664624771b721-sWJzUJ.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872873/sample-page/feed/index.xml
+[2024-05-16 15:21:27] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-16 15:21:27] [class-ss-fetch-urls-task.php:158] Adding 2 URLs to the queue
+[2024-05-16 15:21:27] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-16 15:21:27] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: Œû™Lê.Aﬁ*›Úˇg:k˝Í Ô
+[2024-05-16 15:21:27] [class-ss-page.php:125] Checking Content Identical:ce9eaa4c902e41de2addf2ff673a1a6bfdea00ef===. Value: TRUE
+[2024-05-16 15:21:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/wp-json/wp/v2/pages/2
+[2024-05-16 15:21:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 35
+[2024-05-16 15:21:27] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/fixedincome/wp-json/wp/v2/pages/2
+[2024-05-16 15:21:27] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-05-16 15:21:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/wp-includes/js/comment-reply.min.js
+[2024-05-16 15:21:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 35
+[2024-05-16 15:21:27] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-16 15:21:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/664624776e3b8-A3X302.tmp
+[2024-05-16 15:21:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/wp-includes/js/comment-reply.min.js?simply_static_page=135
+[2024-05-16 15:21:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/wp-includes/js/comment-reply.min.js?simply_static_page=135
+[2024-05-16 15:21:27] [class-ss-url-fetcher.php:103] Filesize: 2981 bytes
+[2024-05-16 15:21:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-05-16 15:21:27] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/comment-reply.min.js
+[2024-05-16 15:21:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/664624776e3b8-A3X302.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872873/wp-includes/js/comment-reply.min.js
+[2024-05-16 15:21:27] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-16 15:21:27] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-05-16 15:21:27] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-16 15:21:27] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: €6ßj™ cøæ¿,,ñt8≈¢E
+[2024-05-16 15:21:27] [class-ss-page.php:125] Checking Content Identical:db36a77f6aaa2063bfbec02c2c0e967438c5a245===. Value: TRUE
+[2024-05-16 15:21:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/2024/05/15/hello-world/feed/
+[2024-05-16 15:21:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 35
+[2024-05-16 15:21:27] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-16 15:21:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/6646247774381-pGK3Dc.tmp
+[2024-05-16 15:21:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/2024/05/15/hello-world/feed/?simply_static_page=136
+[2024-05-16 15:21:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/2024/05/15/hello-world/feed/?simply_static_page=136
+[2024-05-16 15:21:27] [class-ss-url-fetcher.php:103] Filesize: 1696 bytes
+[2024-05-16 15:21:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-05-16 15:21:27] [class-ss-url-fetcher.php:233] New filename for static page: /2024/05/15/hello-world/feed/index.xml
+[2024-05-16 15:21:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/6646247774381-pGK3Dc.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872873/2024/05/15/hello-world/feed/index.xml
+[2024-05-16 15:21:27] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-16 15:21:27] [class-ss-fetch-urls-task.php:158] Adding 3 URLs to the queue
+[2024-05-16 15:21:27] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-16 15:21:27] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: êk}Ü„[â(;æè‹!üQŸ"“|
+[2024-05-16 15:21:27] [class-ss-page.php:125] Checking Content Identical:90186b7d86e35b89283bbe8fdc219f51d922d27c===. Value: TRUE
+[2024-05-16 15:21:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/wp-includes/css/dist/block-library/common.min.css
+[2024-05-16 15:21:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 35
+[2024-05-16 15:21:27] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-16 15:21:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/66462477c90a3-wTPcY2.tmp
+[2024-05-16 15:21:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/wp-includes/css/dist/block-library/common.min.css?simply_static_page=137
+[2024-05-16 15:21:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/wp-includes/css/dist/block-library/common.min.css?simply_static_page=137
+[2024-05-16 15:21:27] [class-ss-url-fetcher.php:103] Filesize: 3503 bytes
+[2024-05-16 15:21:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-05-16 15:21:27] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/common.min.css
+[2024-05-16 15:21:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/66462477c90a3-wTPcY2.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872873/wp-includes/css/dist/block-library/common.min.css
+[2024-05-16 15:21:27] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-16 15:21:27] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2024-05-16 15:21:27] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-16 15:21:27] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: ‚&7µ÷ÆzAä‚–»£b∑˙
+[2024-05-16 15:21:27] [class-ss-page.php:125] Checking Content Identical:e22637b50dd6ae1c1f7a418ae2d0c803a362b7fa===. Value: TRUE
+[2024-05-16 15:21:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/wp-json/wp/v2/posts/1
+[2024-05-16 15:21:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 35
+[2024-05-16 15:21:27] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/fixedincome/wp-json/wp/v2/posts/1
+[2024-05-16 15:21:27] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-05-16 15:21:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/author/admin/feed/
+[2024-05-16 15:21:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 35
+[2024-05-16 15:21:27] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-05-16 15:21:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/66462477d318e-6mB0Wr.tmp
+[2024-05-16 15:21:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/author/admin/feed/?simply_static_page=139
+[2024-05-16 15:21:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/author/admin/feed/?simply_static_page=139
+[2024-05-16 15:21:28] [class-ss-url-fetcher.php:103] Filesize: 1734 bytes
+[2024-05-16 15:21:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-05-16 15:21:28] [class-ss-url-fetcher.php:233] New filename for static page: /author/admin/feed/index.xml
+[2024-05-16 15:21:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/66462477d318e-6mB0Wr.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872873/author/admin/feed/index.xml
+[2024-05-16 15:21:28] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2024-05-16 15:21:28] [class-ss-fetch-urls-task.php:158] Adding 5 URLs to the queue
+[2024-05-16 15:21:28] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2024-05-16 15:21:28] [class-ss-fetch-urls-task.php:171] SHA1 BINARY: nÇ/≈Çß˘«iÇ+S'I€j
+[2024-05-16 15:21:28] [class-ss-page.php:125] Checking Content Identical:016e822fc5820ea71ff9c769822b532749db026a===. Value: TRUE
+[2024-05-16 15:21:28] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/wp-json/wp/v2/users/1
+[2024-05-16 15:21:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 35
+[2024-05-16 15:21:28] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/fixedincome/wp-json/wp/v2/users/1
+[2024-05-16 15:21:28] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-05-16 15:21:28] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 23 of 35 pages/files
+[2024-05-16 15:21:28] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-05-16 15:21:28] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-05-16 15:21:28] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-05-16 15:21:28] [class-ss-fetch-urls-task.php:69] Total pages: 36; Pages remaining: 1
+[2024-05-16 15:21:28] [class-ss-fetch-urls-task.php:72] URL: http://localhost/fixedincome/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Ffixedincome%2Fwp-admin%2F%3Fsimply_static_page%3D132&reauth=1
+[2024-05-16 15:21:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 36
+[2024-05-16 15:21:28] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/fixedincome/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Ffixedincome%2Fwp-admin%2F%3Fsimply_static_page%3D132&reauth=1
+[2024-05-16 15:21:28] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-05-16 15:21:28] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 35 of 36 pages/files
+[2024-05-16 15:21:28] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-05-16 15:21:28] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-05-16 15:21:28] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-05-16 15:21:28] [class-ss-fetch-urls-task.php:69] Total pages: 36; Pages remaining: 0
+[2024-05-16 15:21:28] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 36 of 36 pages/files
+[2024-05-16 15:21:28] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
+[2024-05-16 15:21:28] [class-ss-archive-creation-job.php:136] Current task: generate_404
+[2024-05-16 15:21:28] [class-ss-archive-creation-job.php:153] Performing task: generate_404
+[2024-05-16 15:21:28] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-05-16 15:21:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Deepesh\AppData\Local\Temp/664624783d2ea-on3KAP.tmp
+[2024-05-16 15:21:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/fixedincome/1715872889?simply_static_page=0
+[2024-05-16 15:21:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/fixedincome/1715872889?simply_static_page=0
+[2024-05-16 15:21:28] [class-ss-url-fetcher.php:103] Filesize: 57301 bytes
+[2024-05-16 15:21:28] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-05-16 15:21:28] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-05-16 15:21:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Deepesh\AppData\Local\Temp/664624783d2ea-on3KAP.tmp to C:\xampp\htdocs\fixedincome/wp-content/uploads\simply-static\temp-files/simply-static-1-1715872873\404/index.html
+[2024-05-16 15:21:28] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-05-16 15:21:29] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-05-16 15:21:30] [class-ss-page.php:125] Checking Content Identical:e62d9d465559303d7bcc23e5a437bbff76a14fa7===. Value: TRUE
+[2024-05-16 15:21:30] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-05-16 15:21:30] [class-ss-archive-creation-job.php:175] We've found our next task: create_zip_archive
+[2024-05-16 15:21:30] [class-ss-archive-creation-job.php:136] Current task: create_zip_archive
+[2024-05-16 15:21:30] [class-ss-archive-creation-job.php:153] Performing task: create_zip_archive
+[2024-05-16 15:21:30] [class-ss-create-zip-archive.php:71] Fetching list of files to include in zip
+[2024-05-16 15:21:30] [class-ss-create-zip-archive.php:80] Creating zip archive
+[2024-05-16 15:21:30] [class-ss-task.php:44] Status message: [create_zip_archive] ZIP archive created:  <a href="http://localhost/fixedincome/wp-content/uploads/simply-static/temp-files/simply-static-1-1715872873.zip">Click here to download</a>
+[2024-05-16 15:21:30] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
+[2024-05-16 15:21:30] [class-ss-archive-creation-job.php:136] Current task: wrapup
+[2024-05-16 15:21:30] [class-ss-archive-creation-job.php:153] Performing task: wrapup
+[2024-05-16 15:21:30] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-05-16 15:21:30] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-05-16 15:21:30] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-05-16 15:21:30] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-05-16 15:21:30] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:00:17
